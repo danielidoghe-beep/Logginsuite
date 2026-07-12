@@ -395,7 +395,7 @@ transform:translate(0,0);
 .telegram-support{
     position:fixed;
     right:20px;
-    top:50%;
+    top:70%;
     transform:translateY(-50%);
     width:55px;
     height:55px;
