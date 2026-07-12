@@ -416,3 +416,40 @@ transform:none;
 .telegram-support:hover{
     transform:translateY(-50%) scale(1.1);
 }
+.mobile-menu{
+    position:fixed;
+    top:95px;
+    left:0;
+    width:100%;
+    background:#090d18;
+    padding:40px;
+    display:none;
+    flex-direction:column;
+    gap:35px;
+    z-index:9998;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.mobile-menu a{
+    color:#8b93a8;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.mobile-menu a:hover{
+    color:white;
+}
+
+.menu-start-btn{
+    display:block;
+    text-align:center;
+    background:#5d5cff;
+    color:white!important;
+    padding:18px;
+    border-radius:18px;
+    font-weight:bold;
+}
+
+.mobile-menu.active{
+    display:flex;
+}
