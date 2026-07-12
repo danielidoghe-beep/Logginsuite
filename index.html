@@ -212,7 +212,20 @@ target="_blank">
 💬
 
 </a>
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const mobileMenu = document.getElementById("mobileMenu");
 
+menuBtn.onclick = function () {
+    mobileMenu.classList.toggle("active");
+
+    if (mobileMenu.classList.contains("active")) {
+        menuBtn.innerHTML = "✕";
+    } else {
+        menuBtn.innerHTML = "☰";
+    }
+};
+</script>
 </body>
 </html>
 
