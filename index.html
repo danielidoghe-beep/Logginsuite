@@ -17,9 +17,36 @@
       <span>LoginSuite</span>
     </div>
 
-    <button class="menu-btn">☰</button>
+    <button class="menu-btn" id="menuBtn">☰</button>
   </header>
+<script>
+const menuBtn=document.getElementById("menuBtn");
+const mobileMenu=document.getElementById("mobileMenu");
 
+menuBtn.onclick=function(){
+
+mobileMenu.classList.toggle("active");
+
+if(menuBtn.innerHTML==="☰"){
+menuBtn.innerHTML="✕";
+}else{
+menuBtn.innerHTML="☰";
+}
+
+};
+</script>
+  <div class="mobile-menu" id="mobileMenu">
+
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Sign In</a>
+
+    <a href="#" class="menu-start-btn">
+        Get Started
+    </a>
+
+</div>
   <!-- Hero Section -->
   <section class="hero">
     <h1>The Ultimate Login Suite for Digital Assets</h1>
