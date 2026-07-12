@@ -97,6 +97,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
   gap: 12px;
   margin-bottom: 36px;
 }
@@ -149,4 +150,38 @@ body {
   .search-box button {
     width: 100%;
   }
+}
+.categories{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.categories h2{
+    color:#fff;
+    font-size:32px;
+    margin-bottom:35px;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.category-card{
+    background:#1b1f2d;
+    border:1px solid #2d3448;
+    border-radius:18px;
+    padding:30px 20px;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    background:#2b3150;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
