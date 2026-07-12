@@ -388,28 +388,40 @@ transform:translate(0,0);
 }
 
 }
-.telegram-float{
-    position:fixed;
-    right:25px;
-    bottom:25px;
-    width:65px;
-    height:65px;
+.footer{
+    position:relative;
+}
+
+.footer-telegram{
+
+    position:absolute;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:60px;
+
+    height:60px;
+
     border-radius:50%;
-    background:#29A9EB;
+
+    background:#229ED9;
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
-    box-shadow:0 0 25px rgba(41,169,235,.45);
-    z-index:9999;
+
+    box-shadow:0 0 25px rgba(34,158,217,.45);
+
     transition:.3s;
+
 }
 
-.telegram-float:hover{
+.footer-telegram:hover{
+
     transform:scale(1.08);
-}
 
-.telegram-float img{
-    width:34px;
-    height:34px;
-    filter:invert(1);
 }
