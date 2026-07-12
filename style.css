@@ -392,36 +392,40 @@ transform:translate(0,0);
     position:relative;
 }
 
-.footer-telegram{
+.telegram-support{
 
-    position:absolute;
+position:fixed;
 
-    right:30px;
+right:20px;
 
-    bottom:30px;
+top:55%;
 
-    width:60px;
+transform:translateY(-50%);
 
-    height:60px;
+width:58px;
 
-    border-radius:50%;
+height:58px;
 
-    background:#229ED9;
+border-radius:50%;
 
-    display:flex;
+background:#229ED9;
 
-    justify-content:center;
+display:flex;
 
-    align-items:center;
+justify-content:center;
 
-    box-shadow:0 0 25px rgba(34,158,217,.45);
+align-items:center;
 
-    transition:.3s;
+box-shadow:0 10px 25px rgba(34,158,217,.35);
+
+z-index:9999;
+
+transition:.3s;
 
 }
 
-.footer-telegram:hover{
+.telegram-support:hover{
 
-    transform:scale(1.08);
+transform:translateY(-50%) scale(1.08);
 
 }
