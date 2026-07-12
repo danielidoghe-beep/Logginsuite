@@ -475,3 +475,22 @@ transform:none;
     width:16px;
     height:16px;
 }
+.password-box{
+    position:relative;
+}
+
+.password-box input{
+    width:100%;
+    padding-right:50px;
+}
+
+#togglePassword{
+    position:absolute;
+    right:18px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    font-size:20px;
+    user-select:none;
+    color:#8b93a8;
+}
