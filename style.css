@@ -315,3 +315,19 @@ body {
 .green{background:#17392f;color:#36dba3;}
 .gold{background:#443115;color:#ffc447;}
 .violet{background:#2c1f4a;color:#b36dff;}
+.market-title{
+    text-align:center;
+    padding-top:50px;
+}
+
+.market-title h2{
+    font-size:40px;
+    color:#fff;
+    margin-bottom:18px;
+}
+
+.market-title p{
+    color:#8d94aa;
+    font-size:20px;
+    line-height:1.7;
+}
