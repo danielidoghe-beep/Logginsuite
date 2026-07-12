@@ -331,3 +331,60 @@ body {
     font-size:20px;
     line-height:1.7;
 }
+/* Premium Animated Background */
+
+body{
+    overflow-x:hidden;
+    position:relative;
+}
+
+.bg-grid{
+    position:fixed;
+    inset:0;
+    background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+
+    background-size:45px 45px;
+    z-index:-3;
+}
+
+.bg-glow{
+    position:fixed;
+    width:450px;
+    height:450px;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.25;
+    z-index:-2;
+    animation:floatGlow 12s infinite ease-in-out;
+}
+
+.glow1{
+    background:#6d63ff;
+    top:-120px;
+    left:-100px;
+}
+
+.glow2{
+    background:#2bd4ff;
+    bottom:-120px;
+    right:-120px;
+    animation-delay:6s;
+}
+
+@keyframes floatGlow{
+
+0%{
+transform:translate(0,0);
+}
+
+50%{
+transform:translate(50px,-40px);
+}
+
+100%{
+transform:translate(0,0);
+}
+
+}
