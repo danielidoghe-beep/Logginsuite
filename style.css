@@ -455,3 +455,23 @@ transform:none;
     margin-top:20px;
     font-weight:bold;
 }
+.google-btn{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    padding:15px;
+    background:white;
+    border:none;
+    border-radius:14px;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    color:#222;
+}
+
+.google-icon{
+    width:22px;
+    height:22px;
+}
