@@ -185,3 +185,120 @@ body {
     background:#2b3150;
     box-shadow:0 10px 25px rgba(0,0,0,.35);
 }
+.cta{
+    margin:70px 20px;
+    padding:60px 30px;
+    border-radius:25px;
+    text-align:center;
+    background:linear-gradient(135deg,#5b4bff,#7a5cff);
+}
+
+.cta h2{
+    color:#fff;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.cta p{
+    color:#e6e6e6;
+    margin-bottom:35px;
+}
+
+.cta-btn{
+    display:inline-block;
+    background:#000;
+    color:#fff;
+    padding:16px 45px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer{
+    padding:70px 20px;
+    background:#090d18;
+}
+
+.footer-logo h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+.footer-logo p{
+    color:#8b93a8;
+    max-width:350px;
+}
+
+.footer-links{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:40px;
+    margin-top:40px;
+}
+
+.footer-links h3{
+    color:white;
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    display:block;
+    color:#8b93a8;
+    text-decoration:none;
+    margin:10px 0;
+}
+
+.footer-links a:hover{
+    color:white;
+}
+.market-section{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:40px 20px 70px;
+}
+
+.market-card{
+    background:#111523;
+    border:1px solid rgba(255,255,255,.06);
+    border-radius:22px;
+    padding:30px;
+    transition:.3s;
+}
+
+.market-card:hover{
+    transform:translateY(-6px);
+    border-color:#6b63ff;
+    box-shadow:0 15px 35px rgba(107,99,255,.18);
+}
+
+.market-card h3{
+    color:#fff;
+    margin-top:25px;
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+.market-card p{
+    color:#8f96ad;
+    font-size:18px;
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+}
+
+.orange{background:#3b2418;color:#ff914d;}
+.blue{background:#172848;color:#63a7ff;}
+.purple{background:#24153f;color:#9d7dff;}
+.indigo{background:#172545;color:#7d8cff;}
+.red{background:#431a21;color:#ff6c7b;}
+.green{background:#17392f;color:#36dba3;}
+.gold{background:#443115;color:#ffc447;}
+.violet{background:#2c1f4a;color:#b36dff;}
