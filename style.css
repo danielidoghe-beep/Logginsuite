@@ -453,3 +453,32 @@ transform:none;
 .mobile-menu.active{
     display:flex;
 }
+.mobile-menu{
+    display:none;
+    background:#0b1020;
+    padding:25px;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.mobile-menu.active{
+    display:block;
+}
+
+.mobile-menu a{
+    display:block;
+    color:#cfd3e5;
+    text-decoration:none;
+    padding:18px 0;
+    font-size:20px;
+}
+
+.menu-start-btn{
+    display:block;
+    text-align:center;
+    background:linear-gradient(135deg,#5f5cff,#7c4dff);
+    color:white !important;
+    padding:18px;
+    border-radius:16px;
+    margin-top:20px;
+    font-weight:bold;
+}
