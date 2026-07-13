@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account - LoginSuite</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    background:#03081a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.signup-box{
+    width:430px;
+    max-width:92%;
+    background:#111827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:24px;
+    padding:40px;
+}
+
+.signup-logo{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.signup-logo h1{
+    margin:15px 0 8px;
+    color:white;
+}
+
+.signup-logo p{
+    color:#8b93a8;
+}
+
+.input-group{
+    margin-bottom:18px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    color:white;
+}
+
+.input-group input{
+    width:100%;
+    padding:15px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,.08);
+    background:#1b2436;
+    color:white;
+    box-sizing:border-box;
+}
+
+.create-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(135deg,#5d5cff,#7c4dff);
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.login-link{
+    margin-top:25px;
+    text-align:center;
+    color:#8b93a8;
+}
+
+.login-link a{
+    color:#6d63ff;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="signup-box">
+
+<div class="signup-logo">
+
+<div class="logo-circle">L</div>
+
+<h1>Create Account</h1>
+
+<p>Create your LoginSuite account</p>
+
+</div>
+
+<button class="google-btn">
+
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+class="google-icon">
+
+<span>Continue with Google</span>
+
+</button>
+
+<div class="or">
+──────── OR ────────
+</div>
+
+<div class="input-group">
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
+</div>
+
+<div class="input-group">
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email">
+</div>
+
+<div class="input-group">
+<label>Password</label>
+<input type="password" placeholder="Create password">
+</div>
+
+<div class="input-group">
+<label>Confirm Password</label>
+<input type="password" placeholder="Confirm password">
+</div>
+
+<button class="create-btn">
+Create Account
+</button>
+
+<div class="login-link">
+
+Already have an account?
+
+<a href="login.html">Login</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
