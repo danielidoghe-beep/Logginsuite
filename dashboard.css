@@ -119,3 +119,40 @@ body{
 .stat-box p{
     color:#8b93a8;
 }
+/* Blue Promo Card */
+
+.promo-card{
+    margin:20px;
+    padding:30px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#2563eb,#4f8cff);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.promo-text h2{
+    font-size:28px;
+    margin-bottom:12px;
+}
+
+.promo-text p{
+    color:#dbeafe;
+    line-height:1.6;
+    margin-bottom:22px;
+}
+
+.promo-btn{
+    border:none;
+    background:white;
+    color:#2563eb;
+    padding:14px 24px;
+    border-radius:14px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.promo-icon{
+    font-size:70px;
+}
