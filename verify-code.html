@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verify Code</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    background:#03081a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+.box{
+    width:420px;
+    max-width:92%;
+    background:#111827;
+    padding:40px;
+    border-radius:24px;
+    border:1px solid rgba(255,255,255,.08);
+    text-align:center;
+}
+
+.box h1{
+    color:white;
+}
+
+.box p{
+    color:#8b93a8;
+    margin-bottom:30px;
+}
+
+.code-box{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:30px;
+}
+
+.code-box input{
+    width:55px;
+    height:60px;
+    text-align:center;
+    font-size:24px;
+    border:none;
+    border-radius:14px;
+    background:#1b2436;
+    color:white;
+}
+
+button{
+    width:100%;
+    padding:16px;
+    background:linear-gradient(135deg,#5d5cff,#7c4dff);
+    color:white;
+    border:none;
+    border-radius:14px;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.resend{
+    margin-top:20px;
+}
+
+.resend a{
+    color:#6d63ff;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Verification Code</h1>
+
+<p>
+Enter the 6-digit code sent to your email.
+</p>
+
+<div class="code-box">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+<input maxlength="1">
+</div>
+
+<button onclick="window.location.href='new-password.html'">
+Verify Code
+</button>
+
+<div class="resend">
+<a href="#">Resend Code</a>
+</div>
+
+</div>
+
+</body>
+</html>
