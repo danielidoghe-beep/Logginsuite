@@ -182,5 +182,20 @@ toggle.onclick = function(){
 <div id="loader">
     <div class="loader-circle"></div>
 </div>
+
+<script>
+function loading(nextPage){
+
+    document.getElementById("loader").style.display="flex";
+
+    setTimeout(function(){
+
+        window.location.href=nextPage;
+
+    },1500);
+
+}
+</script>
+
 </body>
 </html>
